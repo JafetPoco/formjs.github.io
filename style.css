@@ -1,0 +1,48 @@
+* {
+    font-family: kanit;
+}
+
+@media (min-width:992px) {
+    .mg {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}
+
+@media (max-width:992px) {
+    .mg {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+input {
+    padding-bottom: 12px;
+}
+
+.bt {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.contenedor {
+    background: rgba(255, 255, 255, 0.356);
+    padding: 30px;
+    margin: auto;
+    border-radius: 6px;
+    color: black;
+    box-shadow: 7px 9px 37px #000;
+}
+
+body {
+    background-image: url('bg.png')
+};
